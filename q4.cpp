@@ -37,5 +37,5 @@ int main() {
         cout << "Both inputs must be positive\n";
         return -1;
     }
-    cout << log(num, base);
+    cout << log(num, base) << "\n";
 }
