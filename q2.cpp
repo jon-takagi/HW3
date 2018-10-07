@@ -13,10 +13,7 @@ int main() {
         cin >> arg;
         if(isMultiple(arg, num)) {
             count++;
-            cout << arg;
-            cout << " is a multiple of ";
-            cout << num;
-            cout << "\n";
+            // cout << arg << " is a multiple of " << num << "\n";
         }
     }
     cout << count;
